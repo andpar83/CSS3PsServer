@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ps2Css", "Ps2Css\Ps2Css.csproj", "{0E52BB08-DD58-40D9-99EF-517CE68E99B3}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Ps2Css.web", "Ps2Css.web\", "{1C07C099-070A-4358-BDF0-4B4CE8B6A158}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		ProjectReferences = "{87DBB765-DAF6-4C37-B4D6-5AA6655AB62F}|Ps2Css.DB.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/Ps2Css.web"
+		Debug.AspNetCompiler.PhysicalPath = "Ps2Css.web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Ps2Css.web\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Ps2Css.web"
+		Release.AspNetCompiler.PhysicalPath = "Ps2Css.web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Ps2Css.web\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50953"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ps2Css.win", "Ps2Css.win\Ps2Css.win.csproj", "{403CFC03-766A-4728-8589-E899645D0063}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ps2Css.DB", "Ps2Css.DB\Ps2Css.DB.csproj", "{87DBB765-DAF6-4C37-B4D6-5AA6655AB62F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6E3D9A2D-A7D4-4B1B-A984-05CF3DB32049}"
+	ProjectSection(SolutionItems) = preProject
+		AssembliesInfo.cs = AssembliesInfo.cs
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Ps2Css.webtool", "Ps2Css.webtool\", "{5F2359CE-5E05-4562-AA49-97E3C1DBDA93}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		ProjectReferences = "{0E52BB08-DD58-40D9-99EF-517CE68E99B3}|Ps2Css.dll;{87DBB765-DAF6-4C37-B4D6-5AA6655AB62F}|Ps2Css.DB.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/Ps2Css.webtool"
+		Debug.AspNetCompiler.PhysicalPath = "Ps2Css.webtool\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Ps2Css.webtool\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Ps2Css.webtool"
+		Release.AspNetCompiler.PhysicalPath = "Ps2Css.webtool\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Ps2Css.webtool\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "58291"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E52BB08-DD58-40D9-99EF-517CE68E99B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E52BB08-DD58-40D9-99EF-517CE68E99B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E52BB08-DD58-40D9-99EF-517CE68E99B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E52BB08-DD58-40D9-99EF-517CE68E99B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C07C099-070A-4358-BDF0-4B4CE8B6A158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C07C099-070A-4358-BDF0-4B4CE8B6A158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C07C099-070A-4358-BDF0-4B4CE8B6A158}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C07C099-070A-4358-BDF0-4B4CE8B6A158}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{403CFC03-766A-4728-8589-E899645D0063}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{403CFC03-766A-4728-8589-E899645D0063}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{403CFC03-766A-4728-8589-E899645D0063}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{403CFC03-766A-4728-8589-E899645D0063}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87DBB765-DAF6-4C37-B4D6-5AA6655AB62F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87DBB765-DAF6-4C37-B4D6-5AA6655AB62F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87DBB765-DAF6-4C37-B4D6-5AA6655AB62F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87DBB765-DAF6-4C37-B4D6-5AA6655AB62F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F2359CE-5E05-4562-AA49-97E3C1DBDA93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F2359CE-5E05-4562-AA49-97E3C1DBDA93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F2359CE-5E05-4562-AA49-97E3C1DBDA93}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F2359CE-5E05-4562-AA49-97E3C1DBDA93}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

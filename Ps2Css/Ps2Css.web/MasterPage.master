@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" Inherits="Meta.Web.UI.MasterPage"
+%><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head><head runat="server" visible="false"></head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<title><%= Page.Title %></title>
+		<meta name="keywords" content="<asp:ContentPlaceHolder id='cphKeywords' runat='server' />" />
+		<meta name="description" content="<asp:ContentPlaceHolder id='cphDescription' runat='server' />" />
+		<link type="text/css" rel="stylesheet" href="<%= Page.Url("~/app/styles.css") %>" />
+	</head>
+	<body>
+		<a href="<%= Page.Url("~/") %>"><img src="<%= Page.Url("~/app/img/Master/logo.png") %>" alt="CSS3Ps - CSS3 PHOTOSHOP PLUGIN" /></a>
+		<asp:ContentPlaceHolder ID="cphContent" runat="server" />
+		<div>
+			<a href="<%= Page.Url("~/") %>">Home</a>
+			<a href="<%= Page.Url("~/Download/") %>">Download</a>
+			<a href="<%= Page.Url("~/FAQ/") %>">FAQ</a>
+<%--			<form action="<%= Page.Url("~/Subscribe/Default.ashx") %>" method="post">
+				<input type="text" name="email" value="" />
+				<button>Subscribe for news</button>
+			</form>
+--%>		</div>
+		<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="<%= Page.Url("~/app/js/jquery.watermark.min.js") %>"></script>
+		<script type="text/javascript" src="<%= Page.Url("~/app/js/scripts.js") %>"></script>
+		<asp:ContentPlaceHolder ID="cphScript" runat="server" />
+<!--
+		#Include virtual="~/app/GoogleAnalytics.inc" --><!--
+		#Include virtual="~/app/Yandex.Metrika.inc"
+-->	</body>
+</html>

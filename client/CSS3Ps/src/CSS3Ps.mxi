@@ -1,0 +1,46 @@
+<macromedia-extension
+	 name="CSS3Ps"
+	 version="1.0.158"
+	 mxiversion="2.0.0"
+	 xmanversion="2.0.0">
+
+	<author name="Klaia, Inc." />
+
+	<products>
+		<product familyname="Photoshop" version="11" />
+	</products>
+
+	<description href="http://css3ps.com">
+	<![CDATA[
+		CSS3 Photoshop Plugin
+	]]>
+	</description>
+
+	<ui-access>
+	<![CDATA[
+	]]>
+	</ui-access>
+
+	<license-agreement>
+	<![CDATA[
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.	
+	]]>
+	</license-agreement>
+
+	<files>
+		<file source="CSS3Ps.jsx" destination="$panels/CSS3Ps/" />
+		<file source="manual/CSS3Ps.jsx" destination="$scripts/" />
+		<file source="CSS3Ps.swf" destination="$panels/CSS3Ps/" />
+		<file source="CSS3PsButton.png" destination="$panels/CSS3Ps/" />
+		<file source="CSS3PsButtonWaiting.png" destination="$panels/CSS3Ps/" />
+		<file source="CSS3PsDarkButton.png" destination="$panels/CSS3Ps/" />
+		<file source="CSS3PsDarkButtonWaiting.png" destination="$panels/CSS3Ps/" />
+		<file source="CSS3PsNormal.png" destination="$panels/CSS3Ps/" />
+		<file source="CSS3PsRollover.png" destination="$panels/CSS3Ps/" />
+		<file source="CSS3PsDarkNormal.png" destination="$panels/CSS3Ps/" />
+		<file source="CSS3PsDarkRollover.png" destination="$panels/CSS3Ps/" />
+	</files>
+
+	<update url="http://css3ps.com/extversion.xml" />
+
+</macromedia-extension>
